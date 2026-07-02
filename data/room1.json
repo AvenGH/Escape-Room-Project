@@ -1,0 +1,47 @@
+{
+    "room_number": 1,
+    "description": "You are in a dimly lit room with an old wooden desk and a locked safe against the wall.",
+    "available_actions": [
+        "Unlock safe",
+        "Open desk drawer",
+        "Look under the desk",
+        "Unlock exit door"
+         
+     ],
+    "items": [
+        {
+             "name": "Desk key",
+             "description": "An old brass key lying under the desk."
+        },
+        {
+            "name": "Main key",
+            "description": "A sturdy key concealed in a hidden safe."
+        },
+        {
+            "name": "Safe",
+            "description": "A large safe secured to the wall."
+        },
+        {       
+            "name": "Piece of paper",
+            "description": "A torn piece of paper with cryptic markings."
+        }
+
+    ],
+    "puzzles": [
+        {   
+            "name": "Unlock the safe", 
+            "description": "The safe requires a 4-digit PIN code to unlock."
+        },
+        {   
+            "name": "Decode!", 
+            "description": "Decipher the markings on the torn paper to reveal a clue."
+        }
+    ],
+    "state_variables": {
+        "safe_unlocked": false,
+        "desk_key_found": false,
+        "desk_drawer_unlocked": false,
+        "safe_pin": "Random"
+    }
+}
+ 
