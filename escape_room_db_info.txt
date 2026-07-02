@@ -1,0 +1,33 @@
+#rooms
+
+COLUMNS: 
+room_id(PK int SERIAL), 
+name(STRING(50)), 
+description(STRING(256)), 
+is_completed(BOOLEAN)
+
+DATA FOR ROOM1: 
+name: "The abandoned room", 
+description: "You are in a dimly lit room with an old wooden desk and a locked safe against the wall.",
+is_completed: false
+
+---------------------------------------------------------------------------------------------------------------------
+
+#items
+
+COLUMNS: 
+item_id(PK int SERIAL), 
+name(STRING(50)), 
+description(STRING(256)), 
+room_id(FK(rooms) int)
+
+----------------------------------------------------------------------------------------------------------------------
+
+#room_state
+
+COLUMNS: 
+room_state_id(PK int SERIAL),
+name(STRING(50)),
+status(BOOLEAN),
+room_id(FK(rooms) int)
+

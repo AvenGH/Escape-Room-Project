@@ -1,0 +1,25 @@
+FOR LOOP:
+hmmmm im not very experienced with that as well
+cant we just loop the answer list
+yeah lets do it
+the answers are in order so we dont need to worry
+-loops through set 1 dictionary
+    -loops through questions
+        -displays each question
+
+ye we could do that, or we could use enum to keep track of the index position
+#actually, letsa try that
+
+this is the error
+im gonna workout how we lock the pinselectors so it doesnt loop back to that room
+and also generate the pincode
+#we can generate the random pin number on that function
+
+
+
+ye we could do that, just list down all ur requirements:
+
+-
+-
+-
+
